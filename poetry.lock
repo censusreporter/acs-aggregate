@@ -58,6 +58,17 @@ six = ">=1.9.0"
 webencodings = "*"
 
 [[package]]
+category = "dev"
+description = "Generate complex HTML+JS pages with Python"
+name = "branca"
+optional = false
+python-versions = "*"
+version = "0.4.1"
+
+[package.dependencies]
+jinja2 = "*"
+
+[[package]]
 category = "main"
 description = "Dummy package for Beautiful Soup"
 name = "bs4"
@@ -192,6 +203,23 @@ all = ["shapely", "boto3 (>=1.2.4)", "pytest (>=3)", "pytest-cov", "mock"]
 calc = ["shapely"]
 s3 = ["boto3 (>=1.2.4)"]
 test = ["pytest (>=3)", "pytest-cov", "boto3 (>=1.2.4)", "mock"]
+
+[[package]]
+category = "dev"
+description = "Make beautiful maps with Leaflet.js & Python"
+name = "folium"
+optional = false
+python-versions = ">=3.5"
+version = "0.11.0"
+
+[package.dependencies]
+branca = ">=0.3.0"
+jinja2 = ">=2.9"
+numpy = "*"
+requests = "*"
+
+[package.extras]
+testing = ["pytest"]
 
 [[package]]
 category = "main"
@@ -910,7 +938,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "2540162b84fb7bb3a96fa59a72691a614e1ecf26355085df8855f71988304a3b"
+content-hash = "e68eab03c7258668ac1dff9d83d2ac7d30058444791c0af159189cd4a1a5822d"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -934,6 +962,10 @@ beautifulsoup4 = [
 bleach = [
     {file = "bleach-3.1.5-py2.py3-none-any.whl", hash = "sha256:2bce3d8fab545a6528c8fa5d9f9ae8ebc85a56da365c7f85180bfe96a35ef22f"},
     {file = "bleach-3.1.5.tar.gz", hash = "sha256:3c4c520fdb9db59ef139915a5db79f8b51bc2a7257ea0389f30c846883430a4b"},
+]
+branca = [
+    {file = "branca-0.4.1-py3-none-any.whl", hash = "sha256:84eb4a2cc2c6f988c7ed07523de18c9867baeac3539a24cb3b66c255399bb1c5"},
+    {file = "branca-0.4.1.tar.gz", hash = "sha256:8a9df7811a4d845ffaddad1030075cf26157c91d0be10b4f800ef1c8b3caedb8"},
 ]
 bs4 = [
     {file = "bs4-0.0.1.tar.gz", hash = "sha256:36ecea1fd7cc5c0c6e4a1ff075df26d50da647b75376626cc186e2212886dd3a"},
@@ -990,6 +1022,10 @@ fiona = [
     {file = "Fiona-1.8.13.post1-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:c6e99bf596c2322e134833490611a612a8cce35a39c4c6499b7df919e24b482b"},
     {file = "Fiona-1.8.13.post1-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:6d30d755e9041a3380d85c1b2e09003f657c03a749fb02a3d36b191296f57f5d"},
     {file = "Fiona-1.8.13.post1.tar.gz", hash = "sha256:1a432bf9fd56f089256c010da009c90d4a795c531a848132c965052185336600"},
+]
+folium = [
+    {file = "folium-0.11.0-py2.py3-none-any.whl", hash = "sha256:8a819fe19791411fc7c7202ae597787e7b4b5189b23f43756931d2ff73a48f4a"},
+    {file = "folium-0.11.0.tar.gz", hash = "sha256:540789abc21872469e52c59ac3962c61259a8df557feadd6514eb23eb0a64ca7"},
 ]
 fuzzywuzzy = [
     {file = "fuzzywuzzy-0.18.0-py2.py3-none-any.whl", hash = "sha256:928244b28db720d1e0ee7587acf660ea49d7e4c632569cad4f1cd7e68a5f0993"},
