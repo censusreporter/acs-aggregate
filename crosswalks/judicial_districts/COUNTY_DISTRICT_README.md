@@ -21,6 +21,15 @@ The [crosswalk](county_district_xref.csv) is a UTF-8 encoded CSV file with one r
 
 We welcome input from people with expertise about whether there's a more systematic way to represent the districts and divisions, such as numeric or coded identifiers. (We've since learned about [a GIS file of districts](https://hifld-geoplatform.opendata.arcgis.com/datasets/us-district-court-jurisdictions) which includes identifiers. In the future we may either use that file to create the crosswalk, or at least integrate its IDs to make it easier to create maps based on aggregated data.)
 
+## Using this crosswalk
+
+This repository includes two notebooks demonstrating how you can use the crosswalk with python code to aggregate ACS data by Judicial District:
+
+* [population_by_district.ipynb](population_by_district.ipynb) - a simple case to get the estimated total population for each district. If you just want that data, download [population_by_district_acs2018_5yr.csv](population_by_district_acs2018_5yr.csv)
+* [race_by_district.ipynb](race_by_district.ipynb) - a more involved example which also shows how to account for the aggregated margin of error, and how to test the reliability of the aggregates.
+
+Of course, you don't have to use python to use the crosswalk, but it's our working language, so it was easiest to use for demonstration. We'll gladly link to examples using `R` or other tools.
+
 ## More on the method
 
 The crosswalk here is not purely created by code. We were able to match most of the counties with a scraper (available in this [Google Colab notebook](https://colab.research.google.com/drive/1ghrzwtNhwlN6E3GBH8N5zqP9cAOPOGd0#scrollTo=LtDXNodX4KO9)), but at a certain point, it didn't seem worth working through formatting peculiarities, misspellings in the statute, and annoying nuances of regular expressions. 
