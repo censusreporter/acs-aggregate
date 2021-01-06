@@ -30,9 +30,14 @@ For a while, Zillow offered neighborhood maps that they pulled together for thei
 ## MA - Massachusetts
 
 * [Cambridge CDD (Community Development Department) Neighborhoods](https://www.cambridgema.gov/GIS/gisdatadictionary/Boundary/BOUNDARY_CDDNeighborhoods)
+
 ## MI - Michigan
 
 * [Detroit neighborhood bondaries](https://data.detroitmi.gov/datasets/neighborhoods)
+
+## MO - Missouri
+
+* [Kansas City neighborhood boundaries](https://data.kcmo.org/Neighborhoods/Kansas-City-Neighborhood-Boundaries/q45j-ejyk)
 
 ## NY - New York
 
