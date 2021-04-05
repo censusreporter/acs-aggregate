@@ -6,12 +6,15 @@ While this will probably be hard to keep up to date, and perhaps should be in so
 
 *Since this is about aggregating Census data, let's stipulate that it should only include polygon data, not points and lines. And, only boundaries relevant to the United States and its territories. We'll organize it by state (or state-like.)*
 
-Also, while it may or may not be current, the [GitHub repo](https://github.com/codeforamerica/click_that_hood/tree/master/public/data) for [Click That Hood](http://click-that-hood.com/) is worth a look if you don't find what you're looking for here -- and it goes far beyond the US as well.  
 
 ## US - United States
 
 * [Home Owners' Loan Corporation (HOLC) "Redlining" maps](https://dsl.richmond.edu/panorama/redlining/#text=downloads) (also available for many specific cities)
-* [US District Court Jurisdictions](https://hifld-geoplatform.opendata.arcgis.com/datasets/us-district-court-jurisdictions) (see also `crosswalks/judicial_districts/COUNTY_DISTRICT_README.md`)
+* [US District Court Jurisdictions](https://hifld-geoplatform.opendata.arcgis.com/datasets/us-district-court-jurisdictions) (see also [`COUNTY_DISTRICT_README.md`](crosswalks/judicial_districts/COUNTY_DISTRICT_README.md))
+
+## DC - Washington, DC
+
+* [Neighborhood Clusters](https://opendata.dc.gov/datasets/f6c703ebe2534fc3800609a07bad8f5b_17)
 
 ## IL - Illinois
 
@@ -30,7 +33,7 @@ Also, while it may or may not be current, the [GitHub repo](https://github.com/c
 * [New York City Community Districts](https://data.cityofnewyork.us/City-Government/Community-Districts/yfnk-k7r4)
 * [New York City Council Districts](https://data.cityofnewyork.us/City-Government/City-Council-Districts/yusd-j4xi)
 * [New York City Election Districts](https://data.cityofnewyork.us/City-Government/Election-Districts/h2n3-98hq)
-* [New York City Neighborhood Tabulation Areas (NTAs)](https://data.cityofnewyork.us/City-Government/NTA-map/d3qk-pfyz)
+* [New York City Neighborhood Tabulation Areas (NTAs)](https://data.cityofnewyork.us/City-Government/NTA-map/d3qk-pfyz) (note that an [NTA-census tract crosswalk](https://www1.nyc.gov/assets/planning/download/office/data-maps/nyc-population/census2010/nyc2010census_tabulation_equiv.xlsx) is available)
 * [New York City School Districts](https://data.cityofnewyork.us/Education/School-Districts/r8nu-ymqj) (to the Census, NYC is one big district)
 * 
 
@@ -43,3 +46,10 @@ Also, while it may or may not be current, the [GitHub repo](https://github.com/c
 * [Seattle Community Reporting Areas](http://data-seattlecitygis.opendata.arcgis.com/datasets/community-reporting-areas)
 * [Seattle "City Clerk" Neighborhoods](http://data-seattlecitygis.opendata.arcgis.com/datasets/city-clerk-neighborhoods)
 * [Seattle Council Districts](http://data-seattlecitygis.opendata.arcgis.com/datasets/council-districts)
+
+---
+If you aren't finding what you're looking for above, here are some other resources which haven't been fully explored yet:
+
+
+* while it may or may not be current, the [GitHub repo](https://github.com/codeforamerica/click_that_hood/tree/master/public/data) for [Click That Hood](http://click-that-hood.com/) is worth a look if you don't find what you're looking for here -- and it goes far beyond the US as well.
+* The Big Ten Academic Alliance has a [Geoportal](https://geo.btaa.org/) with links to [geodata for a number of US municipalities](https://geo.btaa.org/?f%5Bdc_subject_sm%5D%5B%5D=Municipalities+geospatial+data)

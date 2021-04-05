@@ -19,7 +19,9 @@ The [crosswalk](county_district_xref.csv) is a UTF-8 encoded CSV file with one r
 * division - the name of the division, or blank if the district does not have statutory divisions
 * statute_url - a link to the Cornell LII version of the statute for the given state, in case one wants to validate/review the data
 
-We welcome input from people with expertise about whether there's a more systematic way to represent the districts and divisions, such as numeric or coded identifiers. (We've since learned about [a GIS file of districts](https://hifld-geoplatform.opendata.arcgis.com/datasets/us-district-court-jurisdictions) which includes identifiers. In the future we may either use that file to create the crosswalk, or at least integrate its IDs to make it easier to create maps based on aggregated data.)
+We welcome input from people with expertise about whether there's a more systematic way to represent the districts and divisions, such as numeric or coded identifiers. 
+
+(We've since learned about [a GIS file of districts](https://hifld-geoplatform.opendata.arcgis.com/datasets/us-district-court-jurisdictions) which includes identifiers. In the future we may either use that file to create the crosswalk, or at least integrate its IDs to make it easier to create maps based on aggregated data. See also [this nice interactive javascript map](https://observablehq.com/@caged/the-united-states-courts-of-appeals-and-district-courts) of the districts and counties...)
 
 ## Using this crosswalk
 
