@@ -6,7 +6,6 @@ While this will probably be hard to keep up to date, and perhaps should be in so
 
 *Since this is about aggregating Census data, let's stipulate that it should only include polygon data, not points and lines. And, only boundaries relevant to the United States and its territories. We'll organize it by state (or state-like.)*
 
-
 ## US - United States
 
 * [Home Owners' Loan Corporation (HOLC) "Redlining" maps](https://dsl.richmond.edu/panorama/redlining/#text=downloads) (also available for many specific cities)
@@ -23,10 +22,22 @@ While this will probably be hard to keep up to date, and perhaps should be in so
 * [Chicago Police Districts](https://data.cityofchicago.org/Public-Safety/Boundaries-Police-Districts/4dt9-88ua)
 * [Chicago City Council Wards](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Wards-2015-/sp34-6z76)
 
+## IN - Indiana
+
+* [Bloomington City Neighborhood Associations](https://data.bloomington.in.gov/dataset/city-neigbhorhoods-gis-data)
+
+
+## MA - Massachusetts
+
+* [Cambridge CDD (Community Development Department) Neighborhoods](https://www.cambridgema.gov/GIS/gisdatadictionary/Boundary/BOUNDARY_CDDNeighborhoods)
 
 ## MI - Michigan
 
 * [Detroit neighborhood bondaries](https://data.detroitmi.gov/datasets/neighborhoods)
+
+## MO - Missouri
+
+* [Kansas City neighborhood boundaries](https://data.kcmo.org/Neighborhoods/Kansas-City-Neighborhood-Boundaries/q45j-ejyk)
 
 ## NY - New York
 
@@ -41,6 +52,12 @@ While this will probably be hard to keep up to date, and perhaps should be in so
 
 * [Portland Neighborhood Association Boundaries](https://hub.arcgis.com/datasets/1ef75e34b8504ab9b14bef0c26cade2c_3)
 
+## PA - Pennsylvania
+
+* [Philadelphia Neighborhoods](https://www.opendataphilly.org/dataset/philadelphia-neighborhoods)
+* [Pittsburgh Neighborhoods](https://data.wprdc.org/dataset/neighborhoods1)
+
+
 ## WA - Washington
 
 * [Seattle Community Reporting Areas](http://data-seattlecitygis.opendata.arcgis.com/datasets/community-reporting-areas)
@@ -53,3 +70,5 @@ If you aren't finding what you're looking for above, here are some other resourc
 
 * while it may or may not be current, the [GitHub repo](https://github.com/codeforamerica/click_that_hood/tree/master/public/data) for [Click That Hood](http://click-that-hood.com/) is worth a look if you don't find what you're looking for here -- and it goes far beyond the US as well.
 * The Big Ten Academic Alliance has a [Geoportal](https://geo.btaa.org/) with links to [geodata for a number of US municipalities](https://geo.btaa.org/?f%5Bdc_subject_sm%5D%5B%5D=Municipalities+geospatial+data)
+Also, while it may or may not be current, the [GitHub repo](https://github.com/codeforamerica/click_that_hood/tree/master/public/data) for [Click That Hood](http://click-that-hood.com/) is worth a look if you don't find what you're looking for here -- and it goes far beyond the US as well. 
+* For a while, Zillow offered neighborhood maps that they pulled together for their service. They no longer provide it, but I came across [this site](https://mapcruzin.com/free-download-neighborhood-boundary-shapefiles.htm) which seems to have archived them. They're organized by state, but for many states, there are only neighborhoods for a single city.
