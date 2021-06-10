@@ -55,7 +55,7 @@ While this will probably be hard to keep up to date, and perhaps should be in so
 ## PA - Pennsylvania
 
 * [Philadelphia Neighborhoods](https://www.opendataphilly.org/dataset/philadelphia-neighborhoods)
-* [Pittsburgh Neighborhoods](https://data.wprdc.org/dataset/neighborhoods1)
+* [Pittsburgh Neighborhoods](https://data.wprdc.org/dataset/neighborhoods2)
 
 
 ## WA - Washington
