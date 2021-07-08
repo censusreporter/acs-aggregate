@@ -43,6 +43,7 @@ While this will probably be hard to keep up to date, and perhaps should be in so
 ## MO - Missouri
 
 * [Kansas City neighborhood boundaries](https://data.kcmo.org/Neighborhoods/Kansas-City-Neighborhood-Boundaries/q45j-ejyk)
+* [St. Louis city shapefile data](https://www.stlouis-mo.gov/data/formats/format.cfm?id=21) (includes ward and neighborhood boundaries as well as other divisions)
 
 ## NY - New York
 
