@@ -11,9 +11,19 @@ While this will probably be hard to keep up to date, and perhaps should be in so
 * [Home Owners' Loan Corporation (HOLC) "Redlining" maps](https://dsl.richmond.edu/panorama/redlining/#text=downloads) (also available for many specific cities)
 * [US District Court Jurisdictions](https://hifld-geoplatform.opendata.arcgis.com/datasets/us-district-court-jurisdictions) (see also [`COUNTY_DISTRICT_README.md`](crosswalks/judicial_districts/COUNTY_DISTRICT_README.md))
 
+## CO - Colorado
+
+* [Various state-level files](https://demography.dola.colorado.gov/gis/gis-data/) including hospital, library, water, fire protection districts and more
+
 ## DC - Washington, DC
 
-* [Neighborhood Clusters](https://opendata.dc.gov/datasets/f6c703ebe2534fc3800609a07bad8f5b_17)
+* [Washington, DC Neighborhood Clusters](https://opendata.dc.gov/datasets/f6c703ebe2534fc3800609a07bad8f5b_17)
+
+## GA - Georgia
+
+* [Atlanta Neighborhoods](https://dpcd-coaplangis.opendata.arcgis.com/datasets/neighborhood/)
+* [Atlanta Neighborhood Planning Units](https://dpcd-coaplangis.opendata.arcgis.com/datasets/npu) (NPUs)
+
 
 ## HI - Hawaii
 
