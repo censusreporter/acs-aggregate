@@ -67,5 +67,6 @@ We're very grateful to Caroline Dudlak, Medill '21, for her human review efforts
 
 ## More info
 
-* [US Census: ZIP Code Tabulation Areas (ZCTAs)](https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html).)
+* [US Census: ZIP Code Tabulation Areas (ZCTAs)](https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html)
 * [What is the difference between ZIP code "boundaries" and ZCTA areas?](http://gis.washington.edu/phurvitz/zip_or_zcta/index.html) by Phil Hurvitz, University of Washington
+* [UDS Mapper ZIP Code to ZCTA Crosswalk](https://udsmapper.org/zip-code-to-zcta-crosswalk/) — we found this after we created our own, but it looks like UDS Mapper is regularly updated, and ZIP Codes change fairly frequently, so it may be a better resource than ours.)
