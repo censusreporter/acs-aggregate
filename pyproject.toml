@@ -6,8 +6,8 @@ authors = ["Joe Germuska <JoeGermuska@Northwestern.edu>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.7"
-pandas = "^1.0.5"
+python = "^3.9"
+pandas = "^1.4.2"
 requests = "^2.24.0"
 cenpy = {version = "^1.0.0", extras = ["python-Levenshtein"]}
 python-Levenshtein = "^0.12.0"
