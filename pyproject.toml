@@ -14,7 +14,7 @@ python-Levenshtein = "^0.12.0"
 census-data-aggregator = "^0.0.6"
 
 [tool.poetry.dev-dependencies]
-jupyterlab = "^2.1.5"
+jupyterlab = "^2.2.10"
 folium = "^0.11.0"
 
 [build-system]
